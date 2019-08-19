@@ -1,29 +1,20 @@
-# info-card
+# 简单个人主页
 
-## Project setup
-```
-npm install
-```
+Demo: https://demo.yiny.me
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 食用方法
 
-### Compiles and minifies for production
-```
-npm run build
+克隆本项目, 然后安装构建所需要的环境.
+
+```bash
+git clone https://github.com/Innei/Vue-Simple-Home-Page.git
+cd Vue-Simple-Home-Page
+npm i
+npm build
 ```
 
-### Run your tests
-```
-npm run test
-```
+`dist` 中即使编译生成的静态文件.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 自定义
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+打开 `src` 目录下的 `config.js` 根据模板修改实现自定义.
